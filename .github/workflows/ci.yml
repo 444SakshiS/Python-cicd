@@ -1,7 +1,7 @@
 name: GitHub Actions file to build python 
 
 jobs:
-  runs-on: [DESKTOP-SL3B55N]
+  runs-on: [self-hosted]
 
   strategy:
     matrix:
