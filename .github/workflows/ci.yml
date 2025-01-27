@@ -1,5 +1,9 @@
 name: GitHub Actions file to build python 
 
+on:
+  push:
+    branches:
+    - '*'
 jobs:
   build:
     runs-on: [self-hosted]
